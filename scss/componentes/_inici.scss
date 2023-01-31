@@ -1,0 +1,120 @@
+// font-family: 'Carter One', cursive; font-family: 'Great Vibes', cursive; font-family: 'Oleo Script', cursive;font-family: 'Trade Winds', cursive;
+// base
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    header{
+        position: fixed;
+        margin-top: -50px;
+        width: 100%;
+        nav{
+            background-color: black;
+            margin-top: 0px;
+            .navlink{
+                color: white;
+                
+                text-decoration: none;
+                margin: 5px;
+                padding:5px;
+                background-color: black;
+                font-family: 'Trade Winds', cursive;
+                font-size: 32px;
+            }
+            .navlink:hover{
+                color: red;
+                cursor: pointer;
+            }
+            .navindex{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+        }
+
+    }
+    main{
+        h1{
+            margin: 50px;
+            padding: 83px;
+            font-family: 'Great Vibes', cursive;
+            font-size: 200px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        @media (max-width: 680px) {
+            h1{
+                font-size: 100px;
+            }
+        }
+        p{
+            margin: 2px;
+            padding: 10px;
+            color: white;
+            font-family: 'Carter One', cursive;
+            font-size: 20px;
+
+        }
+        .h2index{
+            margin: 5px;
+            padding: 20px;
+            font-family: 'Oleo Script', cursive;
+            color: red;
+            text-align: center;
+            font-size: 66px;
+            
+        }
+        div{
+            div{
+                div{
+                    text-decoration: none;
+                    .imageindex{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .spamindexuno{
+                        display: flex;
+                        justify-content: center;
+                        width: auto;
+                        margin-top: 10px;
+                        padding-top: 10px;
+                        font-family: 'Carter One', cursive;
+                        color: white;
+                        font-size: 25px;    
+                    }
+                    .spamindexdos{
+                        display: flex;
+                        justify-content: center;
+                        width: auto;
+                        margin-top: -10px;
+                        margin-bottom: 10px;
+                        padding-bottom: 10px;
+                        font-family: 'Carter One', cursive;
+                        color: white;
+                        font-size: 25px;    
+                    }
+                }
+            }
+            @media (max-width: 768px){
+                .audioindex{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+       
+    }
+    footer{
+        font-size: 50px;
+        color: blue;
+      }    
+}        
+h2{
+    color: aqua;
+}

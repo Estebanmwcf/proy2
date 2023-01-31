@@ -1,0 +1,7 @@
+@mixin proph4($ancho, $alto, $alin, $color){
+    width: $ancho;
+    font-size: $alto;
+    text-align: $alin;
+    color: $color;
+    
+}

@@ -1,0 +1,75 @@
+// font-family: 'Carter One', cursive; font-family: 'Great Vibes', cursive; font-family: 'Oleo Script', cursive;font-family: 'Trade Winds', cursive;
+// base
+body{
+    .header{
+        margin-top: 0;
+        padding: $padding-nav;
+        background-color: nth($colores, 3) ;
+        nav .navpages{
+            font-size: 25px;
+        }
+    }
+    main{
+        .h2{
+            color: nth($colores, 2);
+            text-align: nth($alinear, 1);
+            font-family: 'Oleo Script', cursive;
+            font-size:  nth($dedos, 1);
+            margin-top: -19;
+            padding: 200px 5px 80px 5px;
+        }
+        div{
+            .audiocol{
+                @media (max-width:780px){
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+                    
+                    
+                }  
+                
+            }
+        }    
+        .titulo{
+            margin: map-get($mapaestiloh4, margins);
+            padding: map-get($mapaestiloh4, paddings);
+            font-size: map-get($mapaestiloh4, font-tamanio);
+            text-align: map-get($mapaestiloh4, texto-align);
+            color: map-get($mapaestiloh4, col);
+            font-family: 'Carter One', cursive;
+            
+
+        }
+        div{
+            div{
+                div{
+                    .temas{
+                        color: white;
+                        text-align: start;
+                        font-size: 20px;
+                        font-family: 'Carter One', cursive;;
+                    }
+                }
+            }
+        }
+        div{
+            .h3{
+                margin: 2px;
+                padding: 15px;
+                text-align: nth($alinear, 1);
+                font-family: 'Carter One', cursive;
+                color: nth($colores, 1);
+                font-size: nth($dedos, 2);
+            }
+            .videos{
+                width: 100%;
+                display: flex;
+                align-content: center;
+               
+                
+                
+            }
+        }
+    }
+}    

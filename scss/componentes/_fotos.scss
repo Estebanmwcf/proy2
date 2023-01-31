@@ -1,0 +1,15 @@
+main{
+    div{
+        div{
+            div{
+                h4{
+                    font-family: $font-family;
+                    @include proph4(347px, 35px, center, white)
+                    
+                }
+            }
+        }
+    }
+}
+
+   

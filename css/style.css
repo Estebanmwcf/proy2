@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+body header {
+  position: fixed;
+  margin-top: -50px;
+  width: 100%;
+}
+body header nav {
+  background-color: black;
+  margin-top: 0px;
+}
+body header nav .navlink {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  background-color: black;
+  font-family: "Trade Winds", cursive;
+  font-size: 32px;
+}
+body header nav .navlink:hover {
+  color: red;
+  cursor: pointer;
+}
+body header nav .navindex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body main h1 {
+  margin: 50px;
+  padding: 83px;
+  font-family: "Great Vibes", cursive;
+  font-size: 200px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 680px) {
+  body main h1 {
+    font-size: 100px;
+  }
+}
+body main p {
+  margin: 2px;
+  padding: 10px;
+  color: white;
+  font-family: "Carter One", cursive;
+  font-size: 20px;
+}
+body main .h2index {
+  margin: 5px;
+  padding: 20px;
+  font-family: "Oleo Script", cursive;
+  color: red;
+  text-align: center;
+  font-size: 66px;
+}
+body main div div div {
+  text-decoration: none;
+}
+body main div div div .imageindex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main div div div .spamindexuno {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-family: "Carter One", cursive;
+  color: white;
+  font-size: 25px;
+}
+body main div div div .spamindexdos {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-family: "Carter One", cursive;
+  color: white;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  body main div .audioindex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+body footer {
+  font-size: 50px;
+  color: blue;
+}
+
+h2 {
+  color: aqua;
+}
+
+body .header {
+  margin-top: 0;
+  padding: 5px;
+  background-color: black;
+}
+body .header nav .navpages {
+  font-size: 25px;
+}
+body main .h2 {
+  color: red;
+  text-align: center;
+  font-family: "Oleo Script", cursive;
+  font-size: 66px;
+  margin-top: -19;
+  padding: 200px 5px 80px 5px;
+}
+@media (max-width: 780px) {
+  body main div .audiocol {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+}
+body main .titulo {
+  margin: 5px;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  color: red;
+  font-family: "Carter One", cursive;
+}
+body main div div div .temas {
+  color: white;
+  text-align: start;
+  font-size: 20px;
+  font-family: "Carter One", cursive;
+}
+body main div .h3 {
+  margin: 2px;
+  padding: 15px;
+  text-align: center;
+  font-family: "Carter One", cursive;
+  color: white;
+  font-size: 35px;
+}
+body main div .videos {
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+
+main div div div h4 {
+  font-family: "Carter One", cursive;
+  width: 347px;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+
+main .pcont {
+  text-align: center;
+}
+main .envio {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
