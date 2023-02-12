@@ -7,8 +7,7 @@ body {
   background-color: black;
 }
 body header {
-  position: fixed;
-  margin-top: -50px;
+  margin-top: 12px;
   width: 100%;
 }
 body header nav {
@@ -44,9 +43,14 @@ body main h1 {
   align-items: center;
   justify-content: space-around;
 }
-@media (max-width: 680px) {
+@media (max-width: 704px) {
   body main h1 {
     font-size: 100px;
+  }
+}
+@media (max-width: 336px) {
+  body main h1 {
+    font-size: 70px;
   }
 }
 body main p {
@@ -106,6 +110,29 @@ body footer {
 
 h2 {
   color: aqua;
+}
+
+.bi {
+  background-color: rgb(13, 39, 65);
+  background-size: 100%;
+  margin-bottom: 20px;
+  padding: 35px;
+  margin: 10px;
+  float: left;
+}
+@media (max-width: 770px) {
+  .bi .bi {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.col {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 body .header {
@@ -173,6 +200,11 @@ main .pcont {
 }
 main .envio {
   color: red;
+}
+
+.imgshow {
+  border: solid 5px white;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

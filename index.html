@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- favicom -->
     <link rel="shortcut icon" href="./img/favi/favi.jpeg" type="image/x-icon">
     <!-- bootstrap -->
@@ -17,15 +18,22 @@
     <script src="https://kit.fontawesome.com/278ae7d99a.js" crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- animate -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Jugando</title>
     
 </head>
 <body>
-    <header>
+    <header id="ini">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid ">
-          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-white"></span>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon " ></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav navindex">
@@ -42,27 +50,27 @@
       </nav>
     </header>
     <main>
-        <h1 id="h1">Jugando</h1>
+        <h1 id="h1" class="animate__animated animate__backInUp">Jugando</h1>
         <p>La banda se empezó a formar en 2006 en el barrio porteño de Parque Patricios como punto de reunión. Con Billy en guitarra y voz, el Kay en batería, Lucas en guitarra, Abey en el bajo y Maxi en el saxo, el 4/3/2007 JUGANDO debuta en los escenarios, en este caso invitados por Contratiempo en “Ruedas de Fuego Motobar” en Ituzaingó. La banda siguió tocando en Ciberpool, Santos Bar, el CBGB y Mitos Argentinos. Ese año saca su primer demo grabado en Estudio Calle 24, compuesto por 7 temas.</p>
         <h2 class="h2index">AUDIOS</h2>
         <div class="container">
           <div class="row audioindex">
-            <div class="col">
-              <a href="./page/audios.html#así">
+            <div class="col" data-aos="flip-left">
+              <a class="bi" style="text-decoration: none;" href="./page/audios.html#así">
                 <div class="imageindex"><img width="200" height="200" src="./img/audio/asi seguir.jpg"  alt=" tapa disco así seguir encenario en pleño show y el público disfrutando" decoding="async" loading="lazy"></div>
                 <span class=" spamindexuno">ASÍ SEGUIR</span>
                 <span class=" spamindexdos">2022</span>
                 </a>
             </div>
-            <div class="col">
-              <a href="./page/audios.html#mania">
+            <div class="col" data-aos="flip-left">
+              <a class="bi " style="text-decoration: none;" href="./page/audios.html#mania">
                 <div class="imageindex"><img width="200" height="200" src="./img/audio/maniatado.jpg"  alt="persona con la vista perdida y en los pasillos olvidados y abnadonados de un hospital psiquiatrico" decoding="async" loading="lazy"></div>
                 <span class=" spamindexuno">MANIATADO</span>
                 <span class=" spamindexdos">2019</span>
                 </a>
             </div>
-            <div class="col">
-              <a href="./page/audios.html#estra">
+            <div class="col" data-aos="flip-left">
+              <a class="bi" style="text-decoration: none;" href="./page/audios.html#estra">
                 <div class="imageindex"><img width="200" height="200" src="./img/audio/estrafalario.jpg"  alt="la union de las manos de dos personas generando un maravilloso esplandor en el espacio" decoding="async" loading="lazy"></div>
                 <span class=" spamindexuno">ESTRAFALARIO</span>
                 <span class=" spamindexdos">2019</span>
@@ -73,22 +81,22 @@
         </div>
         <div class="container">
           <div class="row audioindex">
-            <div class="col">
-                <a href="./page/audios.html#encru">
+            <div class="col" data-aos="flip-left">
+                <a class="bi" style="text-decoration: none;" href="./page/audios.html#encru">
                 <div class="imageindex"><img width="200" height="200" src="./img/audio/encrucijada.jpg"  alt="sin saber a donde escapar en medio de una tormenta" decoding="async" loading="lazy"></div>
                 <span class=" spamindexuno">ENCRUCIJADAS</span>
                 <span class=" spamindexdos">2019</span>
                 </a>
             </div>
-            <div class="col ">
-              <a href="./page/audios.html#gut">
+            <div class="col " data-aos="flip-left">
+              <a class="bi" style="text-decoration: none;" href="./page/audios.html#gut">
                 <div class="imageindex"><img width="200" height="200" src="./img/audio/gutural.jpg"  alt="metamorphosis humana" decoding="async" loading="lazy"></div>
                 <span class=" spamindexuno">GUTURAL</span>
                 <span class=" spamindexdos">2017</span>
                 </a>    
             </div>
-            <div class="col">
-              <a href="./page/audios.html#jug">
+            <div class="col" data-aos="flip-left">
+              <a class="bi" style="text-decoration: none;" href="./page/audios.html#jug">
                 <div class=" imageindex"><img width="200" height="200" src="./img/audio/jugando.jpg"  alt="parque de diversiones abandonado y la gente con los ojos tapados" decoding="async" loading="lazy"></div>
                 <span class=" spamindexuno">JUGANDO</span>
                 <span class=" spamindexdos">2013</span>
@@ -99,13 +107,17 @@
     </main>
     <footer>
       <div class="text-center">
-        <a class="m-1 p-1" href=""><i class="fa-brands fa-twitter"></i></a>
-        <a class="m-1 p-1" href=""><i class="fa-brands fa-facebook"></i></a>
-        <a class="m-1 p-1" href="./index.html#h1"><i class="fa-sharp fa-solid fa-circle-up"></i></a>
-        <a class="m-1 p-1" href=""><i class="fa-brands fa-instagram"></i></a>
-        <a class="m-1 p-1" href="https://www.youtube.com/@Jugandoficial"><i class="fa-brands fa-youtube"></i></a>
-        <a class="m-1 p-1" href=""><i class="fa-brands fa-spotify"></i></a>
+        <a class="m-1 p-1" href="https://twitter.com/jugandoficial" target="_blank"><i aria-hidden="true" class="fa-brands fa-twitter"></i></a>
+        <a class="m-1 p-1" href="https://www.facebook.com/jugandooficial/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a class="m-1 p-1" href="./index.html#ini"><i class="fa-sharp fa-solid fa-circle-up"></i></a>
+        <a class="m-1 p-1" href="https://www.instagram.com/jugandoficial/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a class="m-1 p-1" href="https://www.youtube.com/@Jugandoficial" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a class="m-1 p-1" href="https://open.spotify.com/artist/2H4GzrseYlpE0VrFoOfSuC" target="_blank"><i class="fa-brands fa-spotify"></i></a>
       </div>  
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
